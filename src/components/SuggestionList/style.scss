@@ -1,0 +1,20 @@
+.suggestion-list {
+  position: absolute;
+  top: calc(100% + 1px);
+  left: 0;
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  li {
+    padding: 10px;
+    &.is-active,
+    &:hover {
+      background-color: #e2e2e2;
+    }
+  }  
+}
